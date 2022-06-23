@@ -1,0 +1,39 @@
+ <!DOCTYPE html>
+ 2 <html lang="en">
+ 3 <head>
+ 4     <meta charset="UTF-8">
+ 5     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 6     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 7     <title>Document</title>
+ 8     <style>
+ 9         #demo1{
+10             font-style: normal;
+11             font-size: larger;
+12             color: blue;
+13         }
+14     </style>
+15 </head>
+16 <body>
+17     <h1>简历</h1>
+18     <p>18339693070||18339693070@163.com</p>
+19     <p id = "demo1">求职意向</p>
+20     <p>（应届）前端开发工程师</p>
+21     <hr>
+22     <p id = "demo1">教育背景</p>
+23     <p>某某学院&nbsp;&nbsp;&nbsp;&nbsp;2015.9-2019.6&nbsp;&nbsp;&nbsp;&nbsp;某某专业&nbsp;&nbsp;&nbsp;&nbsp;本科</p>
+24     <hr>
+25     <p id = "demo1">技能</p>
+26     <ol>
+27         <li>熟悉HTML/HTML5， CSS/CSS3， JavaScript等基础知识</li>
+28         <li>了解过jquery</li>
+29         <li>学过C语言</li>
+30         <li>具有自主学习的能力，有技术驱动力</li>
+31     </ol>
+32     <hr>
+33     <p id = "demo1">英语水平</p>
+34     <p>英语四级证书&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;阅读能力强，能够读懂英文文档</p>
+35     <hr>
+36     <p id = "demo1">个人评价</p>
+37     <p>具有良好的沟通和团队协作能力：.........的好成绩。</p>
+38 </body>
+39 </html>
