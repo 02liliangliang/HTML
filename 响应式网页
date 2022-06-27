@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>弹性盒子</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="bootstrap-4.2.1-dist/css/bootstrap.css">
+    <script src="jquery-3.3.1.slim.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.14.6/umd/popper.js"></script>
+    <script src="bootstrap-4.2.1-dist/js/bootstrap.min.js"></script>
+</head>
+<body class="container">
+	
+	<div class="d-flex  bg-warning text-white " style="border-radius: 5px;">
+		<div class="p-2 order-1 "><a href="#1"><strong>学院活动</strong></a></div>
+		<div class="p-2 order-2 "><a href="#2"><strong>学生学习</strong></a></div>
+		<div class="p-2 order-3 "><a href="#3"><strong>生活相关</strong></a></div>
+		<div class="mr-auto p-2"><a href="#4"><strong>惊喜</strong></a></div>
+	</div>
+	<hr color="red" size="7">
+	<div id="1" class=" p-12 text-black" >	
+		<h1 class="bg-secondary" style="border-radius: 5px; color: black;">学院活动</h1>
+		<div class="bg-light ">
+			<h2 class="col-12" align="center"><strong>江西师范大学</strong></h2>
+			<div class=" d-flex justify-content-start mb-3   flex-wrap=nowrap">
+			<div class="p-2 text-black"><img src="img/江西师范大学.jpg" class="img-fluid" alt="Responsive image"></div>
+		
+		<div class="p-2 text-black col-6">我校林珲教授当选为英国社会科学院院士
+		【作示范•勇争先】之四： 贯彻落实党的新时代组织路线 我校基层组织“三化”建设初见成效
+		学校进入校友会2020创新人才培养质量全国排名70强
+		“江西师范大学建校80周年美术作品展”在中国美术馆展出
+		全国政协副主席、九三学社中央常务副主席邵鸿来校视察
+		</div>
+		</div>
+		<hr color="red" size="5" />
+		<hr color="red" size="5" />
+		<h2 style="color: blue;" align="left" ><strong>拔河</strong></h2>
+		<div class="d-flex   text-black justify-content-start mb-3  flex-wrap=nowrap">
+			
+		<div class="d-flex" >
+		<img src="img/学生活动.jpg" class="img-fluid " alt="Responsive image"></div>
+		<div class="p-2 text-black col-7">拔河为双方各执绳一端进行角力的体育活动，属于中国的传统运动项目。拔河在中国有悠久的历史。早在春秋战国时期，就有拔河这项活动，不过在那时不叫拔河，而称为“钩强”或“牵钩”，后演变为荆楚一带民间流行的“施钩之戏”。</div>
+		
+		</div>
+		<hr size="5px" color="green"/>
+		<h2 style="color: blue;" align="right"><strong>篮球比赛</strong></h2>
+		<div class="d-flex  justify-content-end text-black  flex-wrap=nowrap">
+		<div class="p-2 text-black col-7">篮球比赛即根据篮球运动进行的比赛。篮球比赛的形式多种多样，有较为常见的五人篮球，也有现在流行的街头三人篮球赛，是三对三的比赛，更讲究个人技术。 </div>
+		<div ><img src="img/篮球.jpg" class="img-fluid" alt="Responsive image"></div>
+		</div>
+		</div>
+		<hr size="5px" color="green" />
+		</div>
+	
+	<div id="2" class="p-3 bg-white text-black" >
+		<h1 class=" col-12" style="border-radius: 5px; color: red;">学生学习</h1>
+		<div class="flex-wrap=nowrap flex-row d-flex">
+		<div class="col-6 flex-column">
+		<img src="img/学生学习漫画.jpg" class="img-fluid" alt="Responsive image">
+		<div class="p-2">学习是透过教授或体验而获得知识、技术、态度或价值的过程，从而导致可量度的稳定的行为变化，更准确一点来说是建立新的精神结构或审视过去的精神结构。</div>
+		</div>
+		<div class="col-6 flex-column">
+		<img class="col-12" src="img/图书馆.jpg" class="img-fluid" alt="Responsive image">
+		<div class="col-12">图书馆是搜集、整理、收藏图书资料供人阅览、参考的机构，早在公元前3000年就出现了图书馆。它有保存人类文化遗产、开发信息资源、参与社会教育的职能，另一职能是收藏人们不愿意购买（或者无力购买）的资源，作为馆藏提供大众使用或查阅，它可以由公共团体、政府机构或者私人组织开办。</div>
+		</div>
+	</div>
+	<hr size="5px" color="palegreen"/>
+	<div id="3" d-flex p-3 bg-warning text-white>
+		<h1 style="color: #BD2130">生活相关</h1>
+		<div class="d-flex justify-content-between mb-3 img-fluid bg-danger text-white">
+		<img src="img/食堂座位.jpg" class="img-fluid" alt="Responsive image">
+		<img src="img/饭菜.jpg" class="img-fluid" alt="Responsive image">
+		<img src="img/学生宿舍.jpg" class="img-fluid" alt="Responsive image">
+		</div>
+		<div class="d-flex justify-content-between mb-3 bg-danger text-white">
+		<div class="p-2 col-4">学校食堂是一个约定俗成的称呼，也叫学校饭堂，属于 食堂（饭堂）的一种，但食堂（饭堂）是设置在 学校管理范围内的 餐饮场所，通称学校食堂（饭堂）。</div>
+		<div class="p-2 col-4">中国素有”烹饪王国“的美誉，各地均有各种各样的美食，数不胜数，美不胜收。美食吃前有期待、吃后有回味，不仅仅是简单的味觉感受，更是一种精神享受。美食也不仅仅是餐桌上的食物，还包括休闲零食、糕点、干果、蜜饯、茶饮等。</div>
+		<div class="p-2 col-4"> 学生宿舍实行封闭式管理，全体学生宿舍有四人间和六人间，内设卫生间，并配有电脑台、衣柜、鞋柜、电风扇等家具和太阳能热水。每间宿舍有独立的敞开式阳台，可以种植花草。港澳及境外学生均为四人间，并配有独立分体空调。每栋宿舍楼有专门管理人员，公共区域24小时安全录像监控，晚间定时就寝，宿舍内不能养宠物，不能烹煮食物。</div>
+		</div>
+	</div>
+	
+	<div id="4" style="background:greenyellow;width:100%;">
+	惊喜</div>
+</body>
+</html>
