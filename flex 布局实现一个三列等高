@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .one {
+            float: left;
+            width: 30%;
+            background-color: red;
+        }
+        .two {
+            float: left;
+            width: 30%;
+            background-color: blue;
+        }
+        .three {
+            float: left;
+            width: 40%;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+        <p>111</p>
+        <p>111</p>
+        <p>111</p>
+        <p>111</p>
+    </div>
+    <div class="two">
+        <p>wjaeifojawi</p>
+    </div>
+    <div class="three">
+        <p>fwefwe</p>
+        <p>fwefwe</p>
+        <p>fwefwe</p>
+        <p>fwefwe</p>
+        <p>fwefwe</p>
+        <p>fwefwe</p>
+        <p>fwefwe</p>
+        <p>fwefwe</p>
+        <p>fwefwe</p>
+        <p>fwefwe</p>
+        <p>fwefwe</p>
+        <p>fwefwe</p>
+        <p>fwefwe</p>
+        <p>fwefwe</p>
+        <p>fwefwe</p>
+        <p>fwefwe</p>
+        <p>fwefwe</p>
+        <p>fwefwe</p>
+        <p>fwefwe</p>
+        <p>fwefwe</p>
+        <p>fwefwe</p>
+    </div>
+</body>
+</html>
