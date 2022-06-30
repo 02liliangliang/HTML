@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbuzz Coffee</title>
+    <!--html专属注释格式-->
+    <style type="text/css">
+        body {
+            background-color: #d0ac7c; 
+            /**页面背景颜色设置**/ /**css专属注释格式**/
+            margin-left: 20%;
+            margin-right: 20%;
+            /** 设置左右边距分别占页面的20%**/
+            border: 2px dotted black;
+            /** 定义页面主题周围的边距是虚线，颜色为黑色**/
+            padding: 20px 20px 20px 20px ;
+            /** 在页面主体周围创建一些内边距**/
+            font-family: sans-serif;
+            /** 定义文本使用的字体**/
+        }
+    </style>
+</head>
+<body>
+    <h1>Starbuzz Coffee Beverages</h1>
+    <h2>House Blend,$1.49</h2>
+    <p>A  smooth, mild blend of coffee from Mexico,
+       Bolicia and Guatemala.</p>
+
+    <h2>Mocha Cafe Latte,$2.35</h2>
+    <p>Espresso, steamed milk and chocolate syrup.</p>
+
+    <h2>Cappuccion, $1.89</h2>
+    <p>A mixture of espresso, steamed milk and foam.</p>
+
+    <h2>Chai Tea, $1.85</h2>
+    <p>A spicy drink made with black tea, spices
+        milk and honey.
+    </p>
+    <a href="../lounge.html">Back to the lounge</a>
+    <!--利用超链接返回上一层，"../"指向上移指父文件夹，"../../"指返回上层父文件的父文件夹-->
+</body>
+</html>
