@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>就不告诉你</title>
+</head>
+<body>
+    <img src="../image/001.jpg">
+    <!--先返回父文件夹，找到image，再找到image中的目标文本-->
+    <h1>就不告诉你</h1>
+    <a href="../lounge.html">Back to the lounge</a>
+      <!--利用超链接返回上一层，"../"指向上移指父文件夹，"../../"指返回上层父文件的父文件夹-->
+</body>
+</html>
